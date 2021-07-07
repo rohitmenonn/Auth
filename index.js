@@ -1,5 +1,5 @@
 const express = require('express');
-const dotenv = require('dotenv'); // Used to create and store enviroment variables (To store sensitive data you dont wish to show in your code)
+const dotenv = require('dotenv'); // Create environment variables, to store sensitive data you dont wish to show in your code
 const mongoose = require('mongoose');
 const app = express();
 
